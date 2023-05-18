@@ -9,7 +9,6 @@
 
 @media screen and (max-width: 1080px) {
     .intro{
-        max-width: 690px;
         margin-top: 88px;
         margin-left: calc((100vw - 928px)/2);
     }
@@ -18,14 +17,20 @@
 @media screen and (max-width: 928px) {
     .intro{
         max-width: 720px;
-        margin-top: 88px;
         margin-left: auto;
     }
 }
 
 @media screen and (max-width: 800px) {
     .intro{
-        max-width: 90vw;
+        margin: 110px auto 0 auto;
+        width:720px;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .intro{
         margin-top: 20vw;
+        max-width: 90vw;
     }
 }

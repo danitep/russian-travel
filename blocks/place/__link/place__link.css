@@ -6,6 +6,7 @@
     font-weight: 400;
     font-size: 18px;
     line-height: 22px;
+    transition: opacity  0.5s linear;
 }
 
 .place__link:hover{

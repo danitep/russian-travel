@@ -1,13 +1,12 @@
 .header__lang-link{
     margin: 0;
-    margin-left: 18px;
     padding: 0;
     color: #fff;
     line-height: 28px;
     font-size: 24px;
     font-weight: normal;
-    align-self: flex-end;
     text-decoration: none;
+    transition: opacity  0.5s linear;
 }
 
 .header__lang-link:first-child{

@@ -12,7 +12,7 @@
 @import url(../blocks/header/__logo/header__logo.css);
 @import url(../blocks/header/__links/header__links.css);
 @import url(../blocks/header/__lang-link/header__lang-link.css);
-@import url(../blocks/header/__lang-link/_type/header__lang-link_type_underlined.css);
+@import url(../blocks/header/__lang-link/_actived/header__lang-link_actived.css);
 @import url(../blocks/lead/__image/lead__image.css);
 @import url(../blocks/lead/__caption/lead__caption.css);
 
@@ -30,6 +30,7 @@
 @import url(../blocks/intro/__text/intro__text.css);
 @import url(../blocks/intro/__list/intro__list.css);
 @import url(../blocks/intro/__point/intro__point.css);
+@import url(../blocks/intro/__point-text/intro__point-text.css);
 @import url(../blocks/intro/__number/intro__number.css);
 
 /*Настройки блока photo-grid*/

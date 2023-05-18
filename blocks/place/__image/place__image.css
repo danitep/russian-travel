@@ -9,15 +9,3 @@
         max-width: 100%;
     }
 }
-
-@media screen and (max-width:1000px) {
-    .place__image{
-        max-width: 100%;
-    }
-}
-
-@media screen and (max-width:440px) {
-    .place__image{
-        max-width: 100%;
-    }
-}

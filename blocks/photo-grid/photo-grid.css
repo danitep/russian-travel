@@ -10,12 +10,14 @@
 
 @media screen and (max-width:1100px) {
     .photo-grid{
+        gap: 14px;
         grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     }
 }
 
 @media screen and (max-width:1000px) {
     .photo-grid{
+        gap: 16px;
         margin: 88px 24px 0 24px;
         max-width: calc(100vw - 2*24px);
         grid-template-columns: repeat(auto-fit, minmax(352px, 1fr));
@@ -24,6 +26,7 @@
 
 @media screen and (max-width:440px) {
     .photo-grid{
+        gap: 12px;
         margin-top: 20vw;
         margin: 20vw 5vw 0 5vw;
         max-width: calc(100vw - 2*5vw);
