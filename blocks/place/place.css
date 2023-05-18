@@ -1,0 +1,42 @@
+.place{
+    margin: 0;
+    padding: 0;
+    margin-bottom: 80px;
+    list-style-type: none;
+    display: grid;
+    box-sizing: border-box;
+    column-gap: 40px; /* скорректировать*/
+    row-gap: 48px;
+    
+    max-width: 100%;
+    grid-template-columns: 460px 484px;
+    justify-items: center;
+    
+}
+
+.place:last-child{
+    margin-bottom: 0;
+}
+
+@media screen and (max-width:1100px) {
+    .place{
+        column-gap: 32px;
+        grid-template-columns: 440px 456px;
+    }
+}
+
+@media screen and (max-width:1000px) {
+    .place{
+        column-gap: 28px;
+        grid-template-columns: calc((100% - 28px)/2 - 6px) calc((100% - 28px)/2 + 6px);
+        margin-bottom: 73px;
+    }
+}
+
+@media screen and (max-width:760px) {
+    .place{
+        gap: 32px;
+        grid-template-columns: 100%;
+        margin-bottom: 50px;
+    }
+}
