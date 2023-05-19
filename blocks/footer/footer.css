@@ -9,7 +9,7 @@
 
 @media screen and (max-width:1000px) {
     .footer{
-        margin: 90px auto 24px auto;
+        margin-top: 90px;
         width: calc(100% - 24px*2);
     }
 }
@@ -23,8 +23,8 @@
 
 @media screen and (max-width:440px) {
     .footer{
-        margin: 64px 118px 24px 16px;
-        width: calc(100% - 16px - 118px);
+        margin: 64px auto 24px auto;
+        width: calc(100% - 2*16px);
         justify-self: start;
     }
 }
